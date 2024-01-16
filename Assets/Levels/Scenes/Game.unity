@@ -864,6 +864,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c976eacd9b777449b0d88771484bf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slimesToSpawn:
+  - {fileID: 1481915576423257790, guid: 83c6f369afe231c4488d068688851be4, type: 3}
+  - {fileID: 6029672334810367356, guid: 331836112b7369b44b3b0aef9cccdc7a, type: 3}
+  - {fileID: 8057303089776255357, guid: efb54432bf2026a4eaf178c705363b1f, type: 3}
+  - {fileID: 4062611547724574885, guid: d3036a58039481f4db8d28c02a28a48f, type: 3}
+  - {fileID: 5154723012594771091, guid: 7cf14dde62493f2428753f927547b9f6, type: 3}
   spawnerRB: {fileID: 796300402}
   moveSpeed: 4
 --- !u!50 &796300402
