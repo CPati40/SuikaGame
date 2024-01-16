@@ -21,6 +21,9 @@ public class SlimeSpawner : MonoBehaviour
     //Variable que nos va a permitir pulsar o no
     bool canPress;
 
+    //Referencia al UIController
+    public UIController uIReference;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -86,6 +89,8 @@ public class SlimeSpawner : MonoBehaviour
         currentSlime.transform.parent = transform;
         //Generamos un número aleatorio entre 0 y 4
         random = Random.Range(0, 5);
+        //Cambiamos la imagen en la UI por la del siguiente Slime que saldrá
+        uIReference.nextSlime.sprite = slimesToSpawn[random].GetComponent<SpriteRenderer>().sprite;
         //Permitimos de nuevo que se pueda pulsar
         canPress = true;
     }

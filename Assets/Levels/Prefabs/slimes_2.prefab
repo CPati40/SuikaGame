@@ -158,7 +158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8057303089776255357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e44de24537dd2694ba11a0e061f56ca9, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ba7aeb228d24304cb3c8327dbc7acdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slimeType: 2
